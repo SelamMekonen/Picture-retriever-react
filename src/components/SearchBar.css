@@ -1,0 +1,46 @@
+/* .search-bar {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .search-bar form {
+    display: flex;
+    flex-direction: column;
+  } */
+
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: lightblue;
+  }
+  
+form {
+    text-align: center;
+  }
+  
+label {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #333; /* Text color */
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+input[type="text"] {
+    width: 300px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 18px; /* Adjust the font size as needed */
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a light shadow */
+  }
+  
+input[type="text"]:focus {
+    outline: none;
+  }
+  
